@@ -14,22 +14,26 @@ body{
         left: 0px;
         width: 100%;
         background-color: #ffffff;
-        border: #cccccc;
-    border-bottom: 200px;
-    border-color: #777777;
+        border-bottom: #cccccc;
+        border-bottom-style: solid  ;  
+        border-bottom-width: 3px;
+        height: 100px;
+    
 }
 
 #name{
     color: white;
     background-color: #4aaaa5;
-    padding: 20px;
+    padding: 30px;
     width: 200px;
     margin-left: 200px;
+    margin-top: 0px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 30px;
     top: 0px;
-
+    height: 100px;
 }
+
 #abtme{
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -61,8 +65,26 @@ body{
     padding: 20px
 
 }
-#container{
-    width: 960px;
-    justify-content: center
 
-}
+
+  
+  #sticky {
+    width:100%;
+    padding-top: 20px;
+    padding-bottom:10px;
+    background: #777777;
+    color:#cccccc;
+    font-weight:bold;
+    font-size:12px;
+    font-family: sans-serif;
+    text-align-last: center;
+    text-align: center;
+    position:fixed;    
+    bottom:0;          
+    left:0;     
+    border-top-color: #4aaaa5;
+    border-top-style: solid  ;     
+    border-top-width: 6px;
+    overflow: hidden; 
+  }
+  

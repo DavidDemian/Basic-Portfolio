@@ -1,0 +1,85 @@
+body{
+    background-image:url("../images/purty_wood_@2X.png");
+
+}
+.body1{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 960px;
+}
+#header{
+
+        overflow: hidden;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        width: 100%;
+        background-color: #ffffff;
+        border: #cccccc;
+    border-bottom: 200px;
+    border-color: #777777;
+}
+
+#name{
+    color: white;
+    background-color: #4aaaa5;
+    padding: 20px;
+    width: 200px;
+    margin-left: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    top: 0px;
+
+}
+#abtme{
+    color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 27px;
+    font-weight: bold;
+}
+#tabs{
+    color: #cccccc;
+    float: right;
+    position: fixed;
+    top: 0px;right: 0px;
+    margin: 50px;
+    margin-right: 245px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px
+}
+
+
+   .section {
+    margin-left: 200px;
+    margin-top: 200px;
+    background-color: #ffffff;
+    color:#777777;
+    width: 960px;
+    padding: 10px
+
+}
+
+input[type=text], select, textarea {
+    width: 960px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #4aaaa5;
+}
